@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: rgb(168, 161, 153);
+            font-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        {% if age > 10 %}
+        <h1>send_data from Backend</h1>
+        Name sent from Backend is <h1>{{name}}</h1>
+        <h1>Age is {{age}}</h1>
+        {% endif %}
+    </center>
+</body>
+</html>
